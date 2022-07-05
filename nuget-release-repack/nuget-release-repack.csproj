@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+	  <PackAsTool>true</PackAsTool>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>nuget_release_repack</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyVersion>0.0.1</AssemblyVersion>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageId>nuget-release-repack</PackageId>
+    <Authors>TillW</Authors>
+    <Product>nuget Release-Repack</Product>
+    <Description>A utility to repack a prerelease nuget-package as release without recompilation.</Description>
+    <Copyright>(c) 2022 TillW</Copyright>
+    <PackageProjectUrl>https://www.github.com/x789/nuget-release-repack/</PackageProjectUrl>
+    <PackageTags>nuget; repackage; prerelease</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.CommandLine.DragonFruit" Version="0.4.0-alpha.22272.1" />
+  </ItemGroup>
+
+</Project>
